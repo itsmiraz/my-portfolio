@@ -14,6 +14,7 @@ h1 span {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -39,4 +40,24 @@ section {
 
     background-image: url(Image/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.Scond-section img {
+    padding: 10%;
+    width: 80%;
+
+}
+
+.Scond-section {
+    width: 50%;
+    padding-right: 5%;
+}
+
+.my-resume {
+    padding: 10px 20px;
+    background-image: linear-gradient(coral, tomato);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
 }
