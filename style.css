@@ -12,7 +12,7 @@ h1 span {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -51,6 +51,8 @@ section {
 .Scond-section {
     width: 50%;
     padding-right: 5%;
+    margin: 50px;
+
 }
 
 .my-resume {
@@ -60,4 +62,78 @@ section {
     border-radius: 5px;
     font-weight: 700;
     color: white;
+}
+
+.ring {
+    background-image: url(Image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.last-obj {
+    display: flex;
+}
+
+.exp {
+    text-align: center;
+}
+
+.last-baby {
+    width: 50%;
+    padding: 10px;
+    padding-right: 30px;
+}
+
+.last-stack {
+    width: 50%;
+    padding: 10px;
+    padding-left: 30px
+}
+
+.last-obj {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+
+}
+
+.last-stack {
+    box-shadow: 10px 15px 30px gray;
+    padding: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    border-left: 7px solid tomato;
+}
+
+.last-baby {
+    box-shadow: 10px 15px 30px gray;
+    padding: 2%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    border-left: 7px solid blue;
+}
+
+.last-exper {
+    background-image: url(Image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+
+p {
+    text-align: justify;
+
+}
+
+.hi p {
+
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
 }
